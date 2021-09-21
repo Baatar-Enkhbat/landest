@@ -1,0 +1,148 @@
+/* CORE STYLES */
+:root {
+  --primary-color: linear-gradient(to bottom, #007263, #cef5ee);
+  --overlay-color: rgba(24, 51, 47, 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility */
+.w200{
+  width: 150px;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.4;
+  max-width: 1270px;
+  overflow-x: hidden;
+}
+
+
+
+.container {
+  width: 100%;
+}
+.container .b-img img{
+  width: 100%;
+}
+
+.menu-wrap {
+  top: 10%;
+  position: absolute;
+  padding:0 3rem;
+}
+
+.toggler {
+  display: none;
+}
+
+.menu-wrap .menu > div > div > ul {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  width: 1200px;
+  
+}
+
+.menu-wrap .menu > div > div > ul > div{
+  display: flex;
+}
+
+.menu-wrap .menu > div > div > ul > div > li{
+  list-style: none;
+  padding: 0 20px;
+  padding-bottom: 5px;
+  text-align: center;
+  border-radius: 15px;
+  transition: .5s ease-in-out;
+}
+
+.menu-wrap .menu > div > div > ul > div > li:hover{
+  background: linear-gradient(to top, #007263, #55f5da);
+}
+
+.active{
+  background: linear-gradient(to top, #007263, #55f5da);
+}
+
+.menu-wrap .menu > div > div > ul > div > li a{
+  text-decoration: none;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+}
+
+.mid img{
+  display: grid;
+  grid-template-rows: auto;
+  width: 100%;
+}
+
+/* buttons */
+
+.img-3 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.p-2{
+  position: relative;
+}
+
+.p-1 {
+  position: relative;
+}
+
+.p-2 a {
+  position: absolute;
+  width: 150px;
+  top: 75%;
+  left: 20%;
+}
+
+.img-4 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.p-4{
+  position: relative;
+}
+
+.p-3 {
+  position: relative;
+}
+
+.p-4 a {
+  position: absolute;
+  width: 150px;
+  top: 75%;
+  right: 20%;
+}
+
+.footer-nav{
+  align-items: center;
+}
+
+.footer-nav ul{
+  display: grid;
+  grid-template-columns: repeat(10 , 1fr);
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer-nav ul a{
+  padding-top: 10px;
+  width: 90px;
+}
+
+.footer-nav ul .f-logo img{
+  padding-right: 30px;
+}
