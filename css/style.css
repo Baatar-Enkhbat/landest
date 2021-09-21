@@ -106,6 +106,10 @@ body {
   left: 20%;
 }
 
+.p-2 a:hover {
+  width: 160px;
+}
+
 .img-4 {
   display: grid;
   grid-template-columns: auto auto;
@@ -126,6 +130,10 @@ body {
   right: 20%;
 }
 
+.p-4 a:hover {
+  width: 160px;
+}
+
 .footer-nav{
   align-items: center;
 }
@@ -140,6 +148,17 @@ body {
 .footer-nav ul a{
   padding-top: 10px;
   width: 90px;
+}
+
+.footer-nav ul a:hover{
+  background: #55f5da;
+  padding: 0 1px;
+  border-radius: 5px;
+}
+
+.atv{
+  background: #55f5da;
+  border-radius: 5px;
 }
 
 .footer-nav ul .f-logo img{

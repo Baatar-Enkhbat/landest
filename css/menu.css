@@ -173,4 +173,32 @@
   .w200{
     width: 250px;
   }
+/* button */
+.p-2 a {
+    width: 50px;
+}
+
+.p-2 a:hover{
+    width: 55px;
+}
+
+.p-4 a {
+    width: 50px;
+  }
+
+.p-4 a:hover{
+    width: 55px;
+}
+  
+
+
+  .footer-nav ul{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+  }
+
+  .footer-nav ul .f-logo:nth-child(1) {
+      grid-row-start: span 3;
+      
+  }
 }
