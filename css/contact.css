@@ -65,3 +65,10 @@
   .btn:hover{
     background: #00f5d4;
   }
+
+  @media screen and (max-width: 700px){
+    .imem4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
