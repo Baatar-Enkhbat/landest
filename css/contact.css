@@ -62,3 +62,6 @@
     margin-top: 8px;
     width: 100%;
   }
+  .btn:hover{
+    background: #00f5d4;
+  }
